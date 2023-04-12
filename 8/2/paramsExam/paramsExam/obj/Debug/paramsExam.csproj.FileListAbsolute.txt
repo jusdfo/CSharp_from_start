@@ -1,0 +1,12 @@
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\bin\Debug\paramsExam.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\bin\Debug\paramsExam.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.csprojResolveAssemblyReference.cache
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\bin\Debug\paramsExam.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\bin\Debug\paramsExam.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\bin\Debug\paramsExam.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.csprojAssemblyReference.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\8\2\paramsExam\paramsExam\obj\Debug\paramsExam.pdb

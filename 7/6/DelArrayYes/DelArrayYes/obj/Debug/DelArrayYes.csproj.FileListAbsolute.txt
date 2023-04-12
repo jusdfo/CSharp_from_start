@@ -1,0 +1,13 @@
+F:\源码\视频学C#编程\Instance\5\5.35\DelArrayYes\DelArrayYes\bin\Debug\DelArrayYes.exe
+F:\源码\视频学C#编程\Instance\5\5.35\DelArrayYes\DelArrayYes\bin\Debug\DelArrayYes.pdb
+F:\源码\视频学C#编程\Instance\5\5.35\DelArrayYes\DelArrayYes\obj\Debug\ResolveAssemblyReference.cache
+F:\源码\视频学C#编程\Instance\5\5.35\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.exe
+F:\源码\视频学C#编程\Instance\5\5.35\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\bin\Debug\DelArrayYes.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\bin\Debug\DelArrayYes.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\bin\Debug\DelArrayYes.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\6\DelArrayYes\DelArrayYes\obj\Debug\DelArrayYes.pdb

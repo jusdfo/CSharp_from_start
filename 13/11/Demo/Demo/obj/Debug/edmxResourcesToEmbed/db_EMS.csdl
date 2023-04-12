@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="db_EMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tb_employee">
+    <Key>
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="employeecode" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sex" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="dept" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="memo" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_resell_main" Relationship="Self.FK_tb_resell_main_tb_employee" FromRole="tb_employee" ToRole="tb_resell_main" />
+    <NavigationProperty Name="tb_rewarehouse_main" Relationship="Self.FK_tb_rewarehouse_main_tb_employee" FromRole="tb_employee" ToRole="tb_rewarehouse_main" />
+    <NavigationProperty Name="tb_sell_main" Relationship="Self.FK_tb_sell_main_tb_employee" FromRole="tb_employee" ToRole="tb_sell_main" />
+    <NavigationProperty Name="tb_warehouse_main" Relationship="Self.FK_tb_warehouse_main_tb_employee" FromRole="tb_employee" ToRole="tb_warehouse_main" />
+  </EntityType>
+  <EntityType Name="tb_PDic">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Money" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="tb_stock">
+    <Key>
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="tradecode" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="standard" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="produce" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="qty" Type="Double" />
+    <Property Name="price" Type="Double" />
+    <Property Name="averageprice" Type="Double" />
+    <Property Name="saleprice" Type="Double" />
+    <Property Name="stockcheck" Type="Double" />
+    <Property Name="upperlimit" Type="Int32" />
+    <Property Name="lowerlimit" Type="Int32" />
+    <NavigationProperty Name="tb_resell_detailed" Relationship="Self.FK_tb_resell_detailed_tb_stock" FromRole="tb_stock" ToRole="tb_resell_detailed" />
+    <NavigationProperty Name="tb_rewarehouse_detailed" Relationship="Self.FK_tb_rewarehouse_detailed_tb_stock" FromRole="tb_stock" ToRole="tb_rewarehouse_detailed" />
+    <NavigationProperty Name="tb_sell_detailed" Relationship="Self.FK_tb_sell_detailed_tb_stock" FromRole="tb_stock" ToRole="tb_sell_detailed" />
+    <NavigationProperty Name="tb_warehouse_detailed" Relationship="Self.FK_tb_warehouse_detailed_tb_stock1" FromRole="tb_stock" ToRole="tb_warehouse_detailed" />
+  </EntityType>
+  <EntityType Name="tb_units">
+    <Key>
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="unitcode" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tax" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="linkman" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="accounts" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+    <Property Name="gathering" Type="Double" />
+    <Property Name="payment" Type="Double" />
+    <NavigationProperty Name="tb_currentaccount" Relationship="Self.FK_tb_currentaccount_tb_units" FromRole="tb_units" ToRole="tb_currentaccount" />
+    <NavigationProperty Name="tb_resell_main" Relationship="Self.FK_tb_resell_main_tb_units" FromRole="tb_units" ToRole="tb_resell_main" />
+    <NavigationProperty Name="tb_rewarehouse_main" Relationship="Self.FK_tb_rewarehouse_main_tb_units" FromRole="tb_units" ToRole="tb_rewarehouse_main" />
+    <NavigationProperty Name="tb_sell_main" Relationship="Self.FK_tb_sell_main_tb_units" FromRole="tb_units" ToRole="tb_sell_main" />
+    <NavigationProperty Name="tb_warehouse_main" Relationship="Self.FK_tb_warehouse_main_tb_units" FromRole="tb_units" ToRole="tb_warehouse_main" />
+  </EntityType>
+  <EntityType Name="tb_currentaccount">
+    <Key>
+      <PropertyRef Name="billdate" />
+      <PropertyRef Name="billcode" />
+    </Key>
+    <Property Name="billdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="addgathering" Type="Double" />
+    <Property Name="factaddfee" Type="Double" />
+    <Property Name="reducegathering" Type="Double" />
+    <Property Name="factfee" Type="Double" />
+    <Property Name="balance" Type="Double" />
+    <Property Name="units" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tb_units" Relationship="Self.FK_tb_currentaccount_tb_units" FromRole="tb_currentaccount" ToRole="tb_units" />
+  </EntityType>
+  <EntityType Name="tb_power">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="sysuser" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sysuser" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="stock" Type="Boolean" />
+    <Property Name="vendition" Type="Boolean" />
+    <Property Name="storage" Type="Boolean" />
+    <Property Name="system" Type="Boolean" />
+    <Property Name="base" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tb_resell_detailed">
+    <Key>
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="tradecode" />
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tradecode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="unit" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="qty" Type="Double" />
+    <Property Name="price" Type="Double" />
+    <Property Name="tsum" Type="Double" />
+    <Property Name="billdate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tb_stock" Relationship="Self.FK_tb_resell_detailed_tb_stock" FromRole="tb_resell_detailed" ToRole="tb_stock" />
+  </EntityType>
+  <EntityType Name="tb_resell_main">
+    <Key>
+      <PropertyRef Name="billdate" />
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="units" />
+      <PropertyRef Name="handle" />
+    </Key>
+    <Property Name="billdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="units" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="handle" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fullpayment" Type="Double" />
+    <Property Name="payment" Type="Double" />
+    <NavigationProperty Name="tb_employee" Relationship="Self.FK_tb_resell_main_tb_employee" FromRole="tb_resell_main" ToRole="tb_employee" />
+    <NavigationProperty Name="tb_units" Relationship="Self.FK_tb_resell_main_tb_units" FromRole="tb_resell_main" ToRole="tb_units" />
+  </EntityType>
+  <EntityType Name="tb_rewarehouse_detailed">
+    <Key>
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="tradecode" />
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tradecode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="type" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="standard" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="produce" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="unit" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="qty" Type="Double" />
+    <Property Name="price" Type="Double" />
+    <Property Name="tsum" Type="Double" />
+    <Property Name="billdate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tb_stock" Relationship="Self.FK_tb_rewarehouse_detailed_tb_stock" FromRole="tb_rewarehouse_detailed" ToRole="tb_stock" />
+  </EntityType>
+  <EntityType Name="tb_rewarehouse_main">
+    <Key>
+      <PropertyRef Name="billdate" />
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="units" />
+      <PropertyRef Name="handle" />
+    </Key>
+    <Property Name="billdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="units" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="handle" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fullgathering" Type="Double" />
+    <Property Name="gathering" Type="Double" />
+    <NavigationProperty Name="tb_employee" Relationship="Self.FK_tb_rewarehouse_main_tb_employee" FromRole="tb_rewarehouse_main" ToRole="tb_employee" />
+    <NavigationProperty Name="tb_units" Relationship="Self.FK_tb_rewarehouse_main_tb_units" FromRole="tb_rewarehouse_main" ToRole="tb_units" />
+  </EntityType>
+  <EntityType Name="tb_sell_detailed">
+    <Key>
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="tradecode" />
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tradecode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="unit" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="qty" Type="Double" />
+    <Property Name="price" Type="Double" />
+    <Property Name="tsum" Type="Double" />
+    <Property Name="billdate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tb_stock" Relationship="Self.FK_tb_sell_detailed_tb_stock" FromRole="tb_sell_detailed" ToRole="tb_stock" />
+  </EntityType>
+  <EntityType Name="tb_sell_main">
+    <Key>
+      <PropertyRef Name="billdate" />
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="units" />
+      <PropertyRef Name="handle" />
+    </Key>
+    <Property Name="billdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="units" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="handle" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fullgathering" Type="Double" />
+    <Property Name="gathering" Type="Double" />
+    <NavigationProperty Name="tb_employee" Relationship="Self.FK_tb_sell_main_tb_employee" FromRole="tb_sell_main" ToRole="tb_employee" />
+    <NavigationProperty Name="tb_units" Relationship="Self.FK_tb_sell_main_tb_units" FromRole="tb_sell_main" ToRole="tb_units" />
+  </EntityType>
+  <EntityType Name="tb_unit">
+    <Key>
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="fullname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tax" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="tel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="linkman" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="address" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="accounts" Type="String" MaxLength="80" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tb_warehouse_detailed">
+    <Key>
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="tradecode" />
+      <PropertyRef Name="fullname" />
+    </Key>
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tradecode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="unit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="qty" Type="Double" />
+    <Property Name="price" Type="Double" />
+    <Property Name="tsum" Type="Double" />
+    <Property Name="billdate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tb_stock" Relationship="Self.FK_tb_warehouse_detailed_tb_stock1" FromRole="tb_warehouse_detailed" ToRole="tb_stock" />
+  </EntityType>
+  <EntityType Name="tb_warehouse_main">
+    <Key>
+      <PropertyRef Name="billdate" />
+      <PropertyRef Name="billcode" />
+      <PropertyRef Name="units" />
+      <PropertyRef Name="handle" />
+    </Key>
+    <Property Name="billdate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="billcode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="units" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="handle" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="summary" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fullpayment" Type="Double" />
+    <Property Name="payment" Type="Double" />
+    <NavigationProperty Name="tb_employee" Relationship="Self.FK_tb_warehouse_main_tb_employee" FromRole="tb_warehouse_main" ToRole="tb_employee" />
+    <NavigationProperty Name="tb_units" Relationship="Self.FK_tb_warehouse_main_tb_units" FromRole="tb_warehouse_main" ToRole="tb_units" />
+  </EntityType>
+  <Association Name="FK_tb_resell_main_tb_employee">
+    <End Role="tb_employee" Type="Self.tb_employee" Multiplicity="1" />
+    <End Role="tb_resell_main" Type="Self.tb_resell_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_employee">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_resell_main">
+        <PropertyRef Name="handle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_rewarehouse_main_tb_employee">
+    <End Role="tb_employee" Type="Self.tb_employee" Multiplicity="1" />
+    <End Role="tb_rewarehouse_main" Type="Self.tb_rewarehouse_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_employee">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_rewarehouse_main">
+        <PropertyRef Name="handle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_sell_main_tb_employee">
+    <End Role="tb_employee" Type="Self.tb_employee" Multiplicity="1" />
+    <End Role="tb_sell_main" Type="Self.tb_sell_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_employee">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_sell_main">
+        <PropertyRef Name="handle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_warehouse_main_tb_employee">
+    <End Role="tb_employee" Type="Self.tb_employee" Multiplicity="1" />
+    <End Role="tb_warehouse_main" Type="Self.tb_warehouse_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_employee">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_warehouse_main">
+        <PropertyRef Name="handle" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_resell_detailed_tb_stock">
+    <End Role="tb_stock" Type="Self.tb_stock" Multiplicity="1" />
+    <End Role="tb_resell_detailed" Type="Self.tb_resell_detailed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_stock">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_resell_detailed">
+        <PropertyRef Name="fullname" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_rewarehouse_detailed_tb_stock">
+    <End Role="tb_stock" Type="Self.tb_stock" Multiplicity="1" />
+    <End Role="tb_rewarehouse_detailed" Type="Self.tb_rewarehouse_detailed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_stock">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_rewarehouse_detailed">
+        <PropertyRef Name="fullname" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_sell_detailed_tb_stock">
+    <End Role="tb_stock" Type="Self.tb_stock" Multiplicity="1" />
+    <End Role="tb_sell_detailed" Type="Self.tb_sell_detailed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_stock">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_sell_detailed">
+        <PropertyRef Name="fullname" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_warehouse_detailed_tb_stock1">
+    <End Role="tb_stock" Type="Self.tb_stock" Multiplicity="1" />
+    <End Role="tb_warehouse_detailed" Type="Self.tb_warehouse_detailed" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_stock">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_warehouse_detailed">
+        <PropertyRef Name="fullname" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_currentaccount_tb_units">
+    <End Role="tb_units" Type="Self.tb_units" Multiplicity="0..1" />
+    <End Role="tb_currentaccount" Type="Self.tb_currentaccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_units">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_currentaccount">
+        <PropertyRef Name="units" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_resell_main_tb_units">
+    <End Role="tb_units" Type="Self.tb_units" Multiplicity="1" />
+    <End Role="tb_resell_main" Type="Self.tb_resell_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_units">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_resell_main">
+        <PropertyRef Name="units" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_rewarehouse_main_tb_units">
+    <End Role="tb_units" Type="Self.tb_units" Multiplicity="1" />
+    <End Role="tb_rewarehouse_main" Type="Self.tb_rewarehouse_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_units">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_rewarehouse_main">
+        <PropertyRef Name="units" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_sell_main_tb_units">
+    <End Role="tb_units" Type="Self.tb_units" Multiplicity="1" />
+    <End Role="tb_sell_main" Type="Self.tb_sell_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_units">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_sell_main">
+        <PropertyRef Name="units" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_warehouse_main_tb_units">
+    <End Role="tb_units" Type="Self.tb_units" Multiplicity="1" />
+    <End Role="tb_warehouse_main" Type="Self.tb_warehouse_main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_units">
+        <PropertyRef Name="fullname" />
+      </Principal>
+      <Dependent Role="tb_warehouse_main">
+        <PropertyRef Name="units" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="db_EMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="tb_employee" EntityType="Self.tb_employee" />
+    <EntitySet Name="tb_PDic" EntityType="Self.tb_PDic" />
+    <EntitySet Name="tb_stock" EntityType="Self.tb_stock" />
+    <EntitySet Name="tb_units" EntityType="Self.tb_units" />
+    <EntitySet Name="tb_currentaccount" EntityType="Self.tb_currentaccount" />
+    <EntitySet Name="tb_power" EntityType="Self.tb_power" />
+    <EntitySet Name="tb_resell_detailed" EntityType="Self.tb_resell_detailed" />
+    <EntitySet Name="tb_resell_main" EntityType="Self.tb_resell_main" />
+    <EntitySet Name="tb_rewarehouse_detailed" EntityType="Self.tb_rewarehouse_detailed" />
+    <EntitySet Name="tb_rewarehouse_main" EntityType="Self.tb_rewarehouse_main" />
+    <EntitySet Name="tb_sell_detailed" EntityType="Self.tb_sell_detailed" />
+    <EntitySet Name="tb_sell_main" EntityType="Self.tb_sell_main" />
+    <EntitySet Name="tb_unit" EntityType="Self.tb_unit" />
+    <EntitySet Name="tb_warehouse_detailed" EntityType="Self.tb_warehouse_detailed" />
+    <EntitySet Name="tb_warehouse_main" EntityType="Self.tb_warehouse_main" />
+    <AssociationSet Name="FK_tb_resell_main_tb_employee" Association="Self.FK_tb_resell_main_tb_employee">
+      <End Role="tb_employee" EntitySet="tb_employee" />
+      <End Role="tb_resell_main" EntitySet="tb_resell_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_rewarehouse_main_tb_employee" Association="Self.FK_tb_rewarehouse_main_tb_employee">
+      <End Role="tb_employee" EntitySet="tb_employee" />
+      <End Role="tb_rewarehouse_main" EntitySet="tb_rewarehouse_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_sell_main_tb_employee" Association="Self.FK_tb_sell_main_tb_employee">
+      <End Role="tb_employee" EntitySet="tb_employee" />
+      <End Role="tb_sell_main" EntitySet="tb_sell_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_warehouse_main_tb_employee" Association="Self.FK_tb_warehouse_main_tb_employee">
+      <End Role="tb_employee" EntitySet="tb_employee" />
+      <End Role="tb_warehouse_main" EntitySet="tb_warehouse_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_resell_detailed_tb_stock" Association="Self.FK_tb_resell_detailed_tb_stock">
+      <End Role="tb_stock" EntitySet="tb_stock" />
+      <End Role="tb_resell_detailed" EntitySet="tb_resell_detailed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_rewarehouse_detailed_tb_stock" Association="Self.FK_tb_rewarehouse_detailed_tb_stock">
+      <End Role="tb_stock" EntitySet="tb_stock" />
+      <End Role="tb_rewarehouse_detailed" EntitySet="tb_rewarehouse_detailed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_sell_detailed_tb_stock" Association="Self.FK_tb_sell_detailed_tb_stock">
+      <End Role="tb_stock" EntitySet="tb_stock" />
+      <End Role="tb_sell_detailed" EntitySet="tb_sell_detailed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_warehouse_detailed_tb_stock1" Association="Self.FK_tb_warehouse_detailed_tb_stock1">
+      <End Role="tb_stock" EntitySet="tb_stock" />
+      <End Role="tb_warehouse_detailed" EntitySet="tb_warehouse_detailed" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_currentaccount_tb_units" Association="Self.FK_tb_currentaccount_tb_units">
+      <End Role="tb_units" EntitySet="tb_units" />
+      <End Role="tb_currentaccount" EntitySet="tb_currentaccount" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_resell_main_tb_units" Association="Self.FK_tb_resell_main_tb_units">
+      <End Role="tb_units" EntitySet="tb_units" />
+      <End Role="tb_resell_main" EntitySet="tb_resell_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_rewarehouse_main_tb_units" Association="Self.FK_tb_rewarehouse_main_tb_units">
+      <End Role="tb_units" EntitySet="tb_units" />
+      <End Role="tb_rewarehouse_main" EntitySet="tb_rewarehouse_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_sell_main_tb_units" Association="Self.FK_tb_sell_main_tb_units">
+      <End Role="tb_units" EntitySet="tb_units" />
+      <End Role="tb_sell_main" EntitySet="tb_sell_main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_warehouse_main_tb_units" Association="Self.FK_tb_warehouse_main_tb_units">
+      <End Role="tb_units" EntitySet="tb_units" />
+      <End Role="tb_warehouse_main" EntitySet="tb_warehouse_main" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,3 @@
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\3\10\Test10\Test10\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\C#从入门到精通光盘问题回复\3\10\Test10\Test10\obj\Debug\ResolveAssemblyReference.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\3\10\Test10\Test10\obj\Debug\Test10.csproj.CoreCompileInputs.cache

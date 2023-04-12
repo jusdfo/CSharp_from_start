@@ -1,0 +1,31 @@
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\bin\Debug\Test05.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\bin\Debug\Test05.pdb
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\Test05.Form1.resources
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\Test05.Properties.Resources.resources
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\Test05.csproj.GenerateResource.Cache
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\Test05.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\23\5\Test05\Test05\obj\Debug\Test05.pdb
+E:\顾丽丽\图书方向\检测程序(各类图书)\c#从入门到精第二版\sl\23\5\Test05\Test05\obj\Debug\Test05.exe
+E:\顾丽丽\图书方向\检测程序(各类图书)\c#从入门到精第二版\sl\23\5\Test05\Test05\obj\Debug\Test05.pdb
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\Test05.exe
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\Test05.pdb
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\bin\Debug\Test05.exe
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\bin\Debug\Test05.pdb
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\ResolveAssemblyReference.cache
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\Test05.Form1.resources
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\Test05.Properties.Resources.resources
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\C#从入门到精通（第3版）\sl\23\5\Test05\Test05\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\bin\Debug\Test05.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\bin\Debug\Test05.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\bin\Debug\Test05.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.csprojAssemblyReference.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.Form1.resources
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.Properties.Resources.resources
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.csproj.GenerateResource.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\22\1\Test05\Test05\obj\Debug\Test05.pdb

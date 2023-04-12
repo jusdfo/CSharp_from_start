@@ -1,0 +1,13 @@
+F:\源码\视频学C#编程\Instance\5\5.33\AddArrays\AddArrays\bin\Debug\AddArrays.exe
+F:\源码\视频学C#编程\Instance\5\5.33\AddArrays\AddArrays\bin\Debug\AddArrays.pdb
+F:\源码\视频学C#编程\Instance\5\5.33\AddArrays\AddArrays\obj\Debug\ResolveAssemblyReference.cache
+F:\源码\视频学C#编程\Instance\5\5.33\AddArrays\AddArrays\obj\Debug\AddArrays.exe
+F:\源码\视频学C#编程\Instance\5\5.33\AddArrays\AddArrays\obj\Debug\AddArrays.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\obj\Debug\AddArrays.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\obj\Debug\AddArrays.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\bin\Debug\AddArrays.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\bin\Debug\AddArrays.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\bin\Debug\AddArrays.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\obj\Debug\AddArrays.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\obj\Debug\AddArrays.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\4\AddArrays\AddArrays\obj\Debug\AddArrays.pdb

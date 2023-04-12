@@ -1,0 +1,17 @@
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\7\15\Test15\Test15\bin\Debug\Test15.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\7\15\Test15\Test15\bin\Debug\Test15.pdb
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\7\15\Test15\Test15\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\7\15\Test15\Test15\obj\Debug\Test15.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\7\15\Test15\Test15\obj\Debug\Test15.pdb
+E:\顾丽丽\图书方向\检测程序(各类图书)\c#从入门到精第二版\sl\7\15\Test15\Test15\obj\Debug\Test15.exe
+E:\顾丽丽\图书方向\检测程序(各类图书)\c#从入门到精第二版\sl\7\15\Test15\Test15\obj\Debug\Test15.pdb
+F:\图书文档\C#从入门到精通3\C#从入门到精通（第3版）\C#从入门到精通（第3版）\sl\7\15\Test15\Test15\obj\Debug\Test15.exe
+F:\图书文档\C#从入门到精通3\C#从入门到精通（第3版）\C#从入门到精通（第3版）\sl\7\15\Test15\Test15\obj\Debug\Test15.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\obj\Debug\Test15.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\obj\Debug\Test15.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\bin\Debug\Test15.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\bin\Debug\Test15.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\bin\Debug\Test15.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\obj\Debug\Test15.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\obj\Debug\Test15.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\7\18\Test15\Test15\obj\Debug\Test15.pdb

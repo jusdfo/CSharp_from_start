@@ -1,0 +1,11 @@
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.exe.config
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\obj\Debug\Demo3.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\obj\Debug\Demo3.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\bin\Debug\Demo3.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\obj\Debug\Demo3.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\obj\Debug\Demo3.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\1\Demo3\Demo3\obj\Debug\Demo3.pdb

@@ -1,0 +1,33 @@
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\bin\Debug\Server.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\bin\Debug\Server.pdb
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\ResolveAssemblyReference.cache
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\Server.Properties.Resources.resources
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\Server.csproj.GenerateResource.Cache
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\Server.exe
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\Server.pdb
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\obj\Debug\Server.Form1.resources
+E:\2009年的工作任务\C# 文档\c#从入门到精通\C# 从入门到精通（改版）\mr\TM\sl\24\11\Test11\Server\bin\Debug\CommonClass.dll
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\bin\Debug\Server.exe
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\bin\Debug\Server.pdb
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\bin\Debug\CommonClass.dll
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\ResolveAssemblyReference.cache
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\Server.Form1.resources
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\Server.Properties.Resources.resources
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\Server.exe
+E:\C#从入门到精通（第3版）\sl\24\11\Test11\Server\obj\Debug\Server.pdb
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.exe
+F:\工作\源码\从入门到精通\C#从入门到精通（第4版）\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\bin\Debug\Server.exe.config
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\bin\Debug\Server.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\bin\Debug\Server.pdb
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\bin\Debug\CommonClass.dll
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.Form1.resources
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.Properties.Resources.resources
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.csproj.CopyComplete
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.exe
+D:\C#从入门到精通（第5版）光盘\TM（视频讲解及实例源程序）\sl（实例源程序）\23\11\Test11\Server\obj\Debug\Server.pdb

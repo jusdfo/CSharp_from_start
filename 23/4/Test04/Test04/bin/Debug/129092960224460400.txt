@@ -1,0 +1,344 @@
+<html>
+    <head>
+        <title>编程词典服务网-编程词典系列软件服务门户</title>
+        <meta name="keywords" content="编程|词典|编程词典|asp|php|jsp|java|c#|.net|vc|vb|visual basic|visual c++|社区|论坛|软件|网站|明日|科技|明日科技|图书">
+        <meta name="description" content="编程词典系列产品是为编程者开发的易学、易查、易用的超媒体编程学习软件，它包含技术、实例、方案、项目、视频、界面、工具等数十万开发资源。通过编程词典，学习者可以快速学习编程知识，快速掌握编程思路和方法，并在编程中体会快乐和乐趣，培养信心，迅速成为编程高手。对于开发者，不但可以高效查询相关技术，快速借用现有实例、项目、方案、源码快速搭建项目和系统，还可以通过提供的各种界面、实用工具、辅助词典和百宝箱等，快速解决工作、学习中的实际问题。">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" type="text/css" href="/newbccd/css/style.css" />
+    </head>
+        <script src="/newbccd/js/jquery.js"></script>
+    <script src="/newbccd/js/lzhUpText.js"></script>
+    <body>
+    
+    <div id="msgLayer" style="position: absolute; width: 280px; height:63px;  z-index: 1; background:url(/newbccd/img/index_msg_bg.gif); padding-top:33px; font-size:13px; color:#DF531E; display:none">
+
+    </div>
+    
+    <div style="width:950px; height:41px; ">
+        <div style="width:250px; height:41px; float:left; font-size:0px"><img src="/newbccd/img/mainlogo.jpg" /></div>
+        <div style="width:450px; height:41px; float:right; padding-top:25px; ">
+            <li style="display:inline; width:20px; height:20px; float:left; background:url(/newbccd/img/mark21.gif)"></li>
+            <li style="display:inline; width:80px; height:20px; float:left; padding-top:3px;" ><a href="http://www.mrbccd.com" target="_blank" class="a1">编程词典</a></li>
+            <li style="display:inline; width:20px; height:20px; float:left; background:url(/newbccd/img/mark21.gif)"></li>
+            <li style="display:inline; width:80px; height:20px; float:left; padding-top:3px;" ><a href="http://www.mingribook.com" target="_blank" class="a1">明日图书</a></li>
+            <li style="display:inline; width:20px; height:20px; float:left; background:url(/newbccd/img/mark21.gif)"></li>
+            <li style="display:inline; width:80px; height:20px; float:left; padding-top:3px;" ><a href="http://www.mingrisoft.com" target="_blank" class="a1">明日软件</a></li>       
+            <li style="display:inline; width:20px; height:20px; float:left; background:url(/newbccd/img/mark21.gif)"></li>
+            <li style="display:inline; width:80px; height:20px; float:left; padding-top:3px;" ><a href="/newbccd/bbsindex.html" target="_blank" class="a1">服务论坛</a></li>
+        </div>
+    </div>
+    <div style="width:950px;">
+        <table id="__01" width="951" height="268" border="0" cellpadding="0" cellspacing="0">
+        	<tr>
+        		<td colspan="22">
+        			<img src="/newbccd/img/bindex_01.gif" width="950" height="45" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="45" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="3" rowspan="3">
+        			<img src="/newbccd/img/bindex_02.gif" width="131" height="58" ></td>
+        		<td colspan="2" rowspan="2" style="cursor:hand">
+        			<a href="/newbccd/bccd" target="_blank"><img id="bindex" src="/newbccd/img/bindex_03.gif" width="45" height="49" border="0"  onmouseover="showMsg('bindex', 0, '点击此处进入编程词典网首页')" onmouseout="showMsg('bindex', 1)" ></a></td>
+        		<td colspan="7">
+        			<img src="/newbccd/img/bindex_04.gif" width="267" height="20" ></td>
+        		<td colspan="3" rowspan="3" style="cursor:hand">
+        			<a href="/newbccd/community" target="_blank"><img id="cindex" src="/newbccd/img/bindex_05.gif" width="56" height="58" border="0"  onmouseover="showMsg('cindex', 0, '点击此处进入编程词典社区首页')" onmouseout="showMsg('cbindex', 1)"></a></td>
+        		<td rowspan="5">
+        			<img src="/newbccd/img/bindex_06.gif" width="18" height="76" ></td>
+        		<td colspan="3" rowspan="3" style="cursor:hand">
+        			<a href="/newbccd/itfyz" target="_blank"><img id="cmrcz" src="/newbccd/img/bindex_07.gif" width="67" height="58" border="0"  onmouseover="showMsg('cmrcz', 0, 'IT名言、IT人物志、IT企业和精彩语录')" onmouseout="showMsg('cmrcz', 1)"></a></td>
+        		<td colspan="2" rowspan="7">
+        			<img src="/newbccd/img/bindex_08.gif" width="66" height="116" ></td>
+        		<td rowspan="13">
+        			<div style="width:300px; height:222px; background:url(/newbccd/img/bindex_09.gif)">
+        			    <script src="/newbccd/js/fun.js"></script>
+        			    <form name="form_login" method="post" action="/newbccd/login.html" onsubmit="return chkinputlogin1(this)" style="padding: 0px; margin:0px">
+        			    <ul style="padding: 0px; margin:0px">
+        			        <li style="width:100%; height:25px; text-align:left; color:#033F63; padding-left:30px; padding-top:6px; font-weight:bold">
+        			        用户名：
+        			        </li>
+        			        <li style="width:100%; height:25px; text-align:left; color:#033F63; padding-left:30px; font-weight:bold">
+        			           <input type="text" name="netname" id="netname" size="21" class="input7"/>
+        			        </li>
+        			        <li style="width:100%; height:25px; text-align:left; color:#033F63; padding-left:30px; padding-top:6px; font-weight:bold">
+        			         密&nbsp;&nbsp;&nbsp;&nbsp;码：
+        			        </li>
+        			        <li style="width:100%; height:25px; text-align:left; color:#033F63; padding-left:30px; font-weight:bold">
+        			            <input type="password" name="pwd" id="pwd" size="23" class="input7"/>
+        			        </li>
+        			        <li style="width:100%; height:25px; text-align:left; color:#033F63; padding-left:30px; font-weight:bold; padding-top:25px;">
+        			            <input type="image"src="/newbccd/img/index_login.gif" />&nbsp;&nbsp;&nbsp;<a href="/newbccd/register.html" target="_blank"><img src="/newbccd/img/index_register.gif" border="0"/></a>
+        			        </li>
+        			    </ul>
+        			    </form>
+        			</div>
+        	    </td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="20" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2" rowspan="3">
+        			<img src="/newbccd/img/bindex_10.gif" width="34" height="48" ></td>
+        		<td colspan="2" rowspan="3">
+        			<a href="/newbccd/tyzx"　target="_blank"><img id="tyzx" src="/newbccd/img/bindex_11.gif" width="67" height="48" border="0"  onmouseover="showMsg('tyzx', 0, '体验编程词典强大功能')" onmouseout="showMsg('tyzx', 1)"></a></td>
+        		<td colspan="3" rowspan="2">
+        			<img src="/newbccd/img/bindex_12.gif" width="166" height="38" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="29" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2">
+        			<img src="/newbccd/img/bindex_13.gif" width="45" height="9" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="9" ></td>
+        	</tr>
+        	<tr>
+        		<td rowspan="10">
+        			<img src="/newbccd/img/bindex_14.gif" width="62" height="164" ></td>
+        		<td colspan="3" rowspan="4">
+        			<a href="/newbccd/update"　target="_blank"><img id="update" src="/newbccd/img/bindex_15.gif" width="85" height="58" border="0"  onmouseover="showMsg('update', 0, '编程词典最新升级内容信息及下载')" onmouseout="showMsg('update', 1)"></a></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_16.gif" width="29" height="10" ></td>
+        		<td colspan="2" rowspan="3">
+        			<img src="/newbccd/img/bindex_17.gif" width="99" height="36" ></td>
+        		<td colspan="2" rowspan="4" style="cursor:hand">
+        			<a href="/newbccd/bcjjc"　target="_blank"><img id="bcyxb"  src="/newbccd/img/bindex_18.gif" width="77" height="58" border="0"  onmouseover="showMsg('bcyxb', 0, '编程大赛、过关斩将、江湖会、编程故事会')" onmouseout="showMsg('bcyxb', 1)"></a></td>
+        		<td colspan="2" rowspan="2">
+        			<img src="/newbccd/img/bindex_19.gif" width="46" height="18" ></td>
+        		<td colspan="3" rowspan="2">
+        			<img src="/newbccd/img/bindex_20.gif" width="67" height="18" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="10" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="4" rowspan="4">
+        			<a href="/newbccd/question"　target="_blank"><img id="question" src="/newbccd/img/bindex_21.gif" width="76" height="56" border="0" onmouseover="showMsg('question', 0, '解决使用编程词典中的常见问题')" onmouseout="showMsg('question', 1)"></a></td>
+        		<td rowspan="2">
+        			<img src="/newbccd/img/bindex_22.gif" width="54" height="26" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="8" ></td>
+        	</tr>
+        	<tr>
+        		<td rowspan="5">
+        			<img src="/newbccd/img/bindex_23.gif" width="32" height="70" ></td>
+        		<td colspan="4" rowspan="3" style="cursor:hand">
+        		    <a href="/newbccd/bcx"　target="_blank"><img id="zpzs"  src="/newbccd/img/bindex_24.gif" width="64" height="48" border="0"  onmouseover="showMsg('zpzs', 0, '上传和展示用户或IT专家的作品')" onmouseout="showMsg('zpzs', 1)"></a></td>
+        		<td rowspan="2">
+        			<img src="/newbccd/img/bindex_25.gif" width="35" height="40" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="18" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2" rowspan="5">
+        		    <a href="/newbccd/aboutbccd1" target="_blank"><img id="aboutbccd" src="/newbccd/img/bindex_26.gif" width="79" height="67" border="0"  onmouseover="showMsg('aboutbccd', 0, '对编程词典进行详细介绍')" onmouseout="showMsg('aboutbccd', 1)" ></a></td>
+        		<td rowspan="7">
+        			<img src="/newbccd/img/bindex_27.gif" width="74" height="128" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="22" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="3" rowspan="2">
+        			<img src="/newbccd/img/bindex_28.gif" width="85" height="22" ></td>
+        		<td colspan="2" rowspan="6">
+        			<img src="/newbccd/img/bindex_29.gif" width="77" height="106" ></td>
+        		<td colspan="2" rowspan="4" style="cursor:hand">
+        			<a href="/newbccd/bcjyz"　target="_blank"><img id="bcjyz" src="/newbccd/img/bindex_30.gif" width="82" height="45" border="0"  onmouseover="showMsg('bcjyz', 0, '课堂讲解、课堂训练、扩展训练和快乐编程驿站')" onmouseout="showMsg('bcjyz', 1)" style="cursor:hand"></a></td>
+        		<td rowspan="6">
+        			<img src="/newbccd/img/bindex_31.gif" width="19" height="106" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="8" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="4">
+        			<img src="/newbccd/img/bindex_32.gif" width="76" height="14" ></td>
+        		<td colspan="4" rowspan="2">
+        			<img src="/newbccd/img/bindex_33.gif" width="64" height="22" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="14" ></td>
+        	</tr>
+        	<tr>
+        		<td rowspan="4">
+        			<img src="/newbccd/img/bindex_34.gif" width="51" height="84" ></td>
+        		<td colspan="4" rowspan="3">
+        			<a href="/newbccd/dlfw"　target="_blank"><img id="dlfw"  src="/newbccd/img/bindex_35.gif" width="78" height="59" border="0"  onmouseover="showMsg('dlfw', 0, '代理服务相关')" onmouseout="showMsg('dlfw', 1)" style="cursor:hand"></a></td>
+        		<td colspan="2" rowspan="4">
+        			<img src="/newbccd/img/bindex_36.gif" width="32" height="84" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="8" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="4" rowspan="2" style="cursor:hand">
+        		   <a href="/newbccd/server"　target="_blank"><img id="server" src="/newbccd/img/bindex_37.gif" width="88" height="51" border="0"  onmouseover="showMsg('server', 0, '展现编程词典服务团队成员风采')" onmouseout="showMsg('server', 1)" style="cursor:hand"></a></td>
+        		<td rowspan="3">
+        			<img src="/newbccd/img/bindex_38.gif" width="8" height="76" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="15" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2" rowspan="2">
+        			<img src="/newbccd/img/bindex_39.gif" width="79" height="61" ></td>
+        		<td colspan="2" rowspan="2">
+        			<img src="/newbccd/img/bindex_40.gif" width="82" height="61" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="36" ></td>
+        	</tr>
+        	<tr>
+        		<td colspan="4">
+        			<img src="/newbccd/img/bindex_41.gif" width="78" height="25" ></td>
+        		<td colspan="4">
+        			<img src="/newbccd/img/bindex_42.gif" width="88" height="25" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="1" height="25" ></td>
+        	</tr>
+        	<tr>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="62" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="51" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="18" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="16" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="29" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="15" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="19" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="13" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="54" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="25" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="74" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="67" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="10" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="32" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="14" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="18" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="24" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="8" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="35" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="47" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="19" height="1" ></td>
+        		<td>
+        			<img src="/newbccd/img/bindex_fgf.gif" width="300" height="1" ></td>
+        		<td></td>
+        	</tr>
+        </table>
+    </div>
+    <div style="width:50px; height:7px; font-size:0px"></div>
+
+    
+    <div style="width:949px; height:31px; background:url(/newbccd/img/index_gdwz.gif)">
+        <div style="width:60px; height:30px; float:left; font-size:14px; color:#F1610A; padding-top:8px;">
+        新闻
+        </div>
+        <div id="marqueeArea" style="width:860px; padding-left:8px; height:26px; line-height:26px; overflow:hidden; float:left; text-align:left; font-size:14px; padding-top:3px; ">
+    <a href="/newbccd/noteinfo-183.html" target="_blank" class="a113">· 2010年1月13日编程词典全能版在当当网和china-pub网火热销售，敬请关注！</a><br/>
+    <a href="/newbccd/noteinfo-182.html" target="_blank" class="a113">· 2010年1月11日更新后的编程词典体验版面试，请广大读者试用，并多提宝贵意见！</a><br/>
+    <a href="/newbccd/noteinfo-181.html" target="_blank" class="a113">· 2010年1月10日编程词典全能版面市发布会在北京隆重举行，敬请关注！</a><br/>
+    <a href="/newbccd/noteinfo-180.html" target="_blank" class="a113">· 2009年9月22日编程词典各版本内容整理完成，敬请期待！</a><br/>
+        </div>
+        <script language="javascript"> startMarquee(26, 50, 3000, "marqueeArea"); </script>
+    </div>
+    <div style="width:50px; height:10px; font-size:0px"></div>
+    <div style="width:950px; height:260px">
+        <div style="width:610px; height:260px; float:left">
+            <div style="width:100%; height:60px; text-align:left; padding-top:10px; padding-left:30px; font-size:18px; font-weight:bold">编程词典大事全记录：</div>
+            <div style="width:90%; height:130px; border-bottom:1px solid #CEE1EF">
+                                <div style="width:100%; height:30px; text-align:left">
+                    <a href="/newbccd/noteinfo-183.html" target="_blank" class="a106">10-01-05 &nbsp;&nbsp;2010年1月13日编程词典全能版在当当网和china-pub网火热销售，...</a>
+                </div>  
+                                <div style="width:100%; height:30px; text-align:left">
+                    <a href="/newbccd/noteinfo-182.html" target="_blank" class="a106">10-01-05 &nbsp;&nbsp;2010年1月11日更新后的编程词典体验版面试，请广大读者试用，...</a>
+                </div>  
+                                <div style="width:100%; height:30px; text-align:left">
+                    <a href="/newbccd/noteinfo-181.html" target="_blank" class="a106">10-01-04 &nbsp;&nbsp;2010年1月10日编程词典全能版面市发布会在北京隆重举行，敬请...</a>
+                </div>  
+                                <div style="width:100%; height:30px; text-align:left">
+                    <a href="/newbccd/noteinfo-180.html" target="_blank" class="a106">10-01-04 &nbsp;&nbsp;2009年9月22日编程词典各版本内容整理完成，敬请期待！...</a>
+                </div>  
+                            </div> 
+            <div style="width:98%; height:25px; text-align:left; padding-top:10px;">
+                <a href="/newbccd/tyzx" target="_blank"><img src="/newbccd/img/index_btn_ty.gif" border="0"/></a>
+            </div>
+            <div style="width:98%; height:25px; line-height:25px; font-size:13px; text-align:left; ">
+                　　<a href="" class="a7">C#编程词典</a>　<a href="" class="a7">ASP.NET编程词典</a>　<a href="" class="a7">Java编程词典</a>　<a href="" class="a7">Visual C++编程词典</a>　<a href="" class="a7">Visual Basic编程词典</a>
+            </div>
+        </div>
+        <div style="width:321px; height:260px; float:left; ">
+            <div style="width:321px; height:36px; background:url(/newbccd/img/index_zxdd.gif)"></div>
+            <div style="width:321px; height:215px; border-left:1px solid #ABC4C9; border-right:1px solid #ABC4C9; border-bottom:1px solid #ABC4C9; ">
+                            </div>
+         
+        </div>
+    </div>
+    
+    <div style="width:950px; height:14px; background:url(/newbccd/img/index_line.gif)"></div>
+    
+    <div style="width:950px;height:50px;">
+        <div style="width:3%;height:50px;float:left; padding-top:3px">
+            <img src="/newbccd/img/icp.gif" />
+        </div>
+        <div style="width:45%;height:50px;float:left;text-align:left;padding-left:20px; padding-top:8px; line-height:20px;">
+    	<a href="http://www.mingrisoft.com" class="a1" target="_blank">吉林省明日科技有限公司</a>提供技术支持.<br>
+    	Copyright&nbsp;&copy;&nbsp;1999-2008&nbsp;吉林省明日科技有限公司.
+    	</div>
+    	<div style="width:48%;height:50px;float:right;text-align:right;padding-right:20px; padding-top:8px; line-height:20px;">
+    	当前时区&nbsp;GMT+8,&nbsp;今天是&nbsp;<script language=JavaScript>
+     today=new Date();
+     function initArray(){
+       this.length=initArray.arguments.length
+       for(var i=0;i<this.length;i++)
+       this[i+1]=initArray.arguments[i]  }
+       var d=new initArray(
+         "星期日",
+         "星期一",
+         "星期二",
+         "星期三",
+         "星期四",
+         "星期五",
+         "星期六");
+    document.write(
+         "<font color=##000000 style='font-size:9pt;font-family: 宋体'> ",
+         today.getYear(),"年",
+         today.getMonth()+1,"月",
+         today.getDate(),"日&nbsp;",
+         d[today.getDay()+1],
+         "</font>" ); 
+    </script><br>
+        <a href="javascript:location.reload()" class="a1">刷新页面</a>&nbsp;-&nbsp;<a href="http://www.mingribook.com/aboutus.php"  target="_blank" class="a1" >关于我们</a>&nbsp;-&nbsp;<a href="#" class="a1"onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.mrbccd.com');">设为首页</a>
+    	</div>
+    </div>
+
+    <script language="javascript">
+        function showMsg(x, y, z){
+            if(y==0){
+                $("#msgLayer").css("left", $("#"+x).offset().left-20);
+                $("#msgLayer").css("top", $("#"+x).offset().top+45);
+                $("#msgLayer").html(z);
+                $("#msgLayer").css("display", "inline");
+            }else{
+            	$("#msgLayer").css("display", "none");
+            }      
+        }   
+  
+
+    </script>
+    
+    </body>
+</html>
